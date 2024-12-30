@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 240px;
+    margin: 0;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    background-color: green;
+    color: white;
+}

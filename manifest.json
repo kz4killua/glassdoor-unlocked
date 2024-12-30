@@ -1,0 +1,26 @@
+{
+    "name": "Glassdoor Unlocked",
+    "version": "1.0.0",
+    "description": "Use Glassdoor without creating an account",
+    "manifest_version": 3,
+    "author": "Ifeanyi Obinelo",
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "Glassdoor Unlocked",
+        "default_icon": {
+            "16": "images/icon16.png",
+            "24": "images/icon24.png",
+            "32": "images/icon32.png"
+        }
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.glassdoor.com/*",
+                "https://www.glassdoor.co.uk/*",
+                "https://www.glassdoor.ca/*"
+            ],
+            "js": ["scripts/content.js"]
+        }
+    ]
+}
