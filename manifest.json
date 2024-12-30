@@ -17,9 +17,16 @@
     "content_scripts": [
         {
             "matches": [
-                "https://www.glassdoor.com/*",
-                "https://www.glassdoor.co.uk/*",
-                "https://www.glassdoor.ca/*"
+                "https://*.glassdoor.com/*",
+                "https://*.glassdoor.ca/*",
+                "https://*.glassdoor.co.uk/*",
+                "https://*.glassdoor.com.au/*",
+                "https://*.glassdoor.de/*",
+                "https://*.glassdoor.fr/*",
+                "https://*.glassdoor.in/*",
+                "https://*.glassdoor.ie/*",
+                "https://*.glassdoor.nl/*",
+                "https://*.glassdoor.sg/*"
             ],
             "js": ["scripts/content.js"]
         }
