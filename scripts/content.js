@@ -1,13 +1,11 @@
 function unlock() {
   const wall = document.querySelector('div#ContentWallHardsell');
   if (wall) {
-    console.log('Wall found!');
     wall.remove();
   }
 
   const overlay = document.querySelector('div#HardsellOverlay');
   if (overlay) {
-    console.log('Overlay found!');
     overlay.remove();
   }
 
